@@ -18,7 +18,7 @@ function EditUser() {
   const { userInfor } = useSelector((state) => state.managerReducer);
   const [form] = Form.useForm();
   const onFinish = (e) => {
-    const formData = { ...e, maNhom: "GP00" };
+    const formData = { ...e, maNhom: "GP01" };
     dispatch(updateUserActionService(formData));
   };
   useEffect(() => {

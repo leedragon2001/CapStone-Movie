@@ -11,7 +11,7 @@ function AddUser() {
   const navigation = useNavigate();
 
   const onFinish = (e) => {
-    const data = { ...e, maNhom: "GP00" };
+    const data = { ...e, maNhom: "GP01" };
 
     managerService
       .addUser(data)
