@@ -65,7 +65,7 @@ export default function FooterTheme() {
         </div>
       </div>
       <h1 className="text-white font-bold text-center py-5">
-        Designed by TRAN DINH DANH & TRAN LUONG THANH TIN
+        Designed by CHUNG GIA HUY
       </h1>
     </div>
   );
